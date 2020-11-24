@@ -24,3 +24,7 @@ console.log(exponent);
 
 const modulus = (realnum % realnum2)
 console.log(modulus);
+
+// Code a statement that would return a random number between 1 and 35.
+const randomNumber = Math.floor( Math.random() * 35 ) + 1 ;
+console.log(randomNumber);
