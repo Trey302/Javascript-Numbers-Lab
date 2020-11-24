@@ -36,7 +36,16 @@
 // console.log(decimalNumber);
 
 // Code a statement that returns a floating point number rounded down to the nearest integer.
-const number = prompt ('Enter another number with a decimal');
-const floatDown = parseInt(number);
-const floatNumber = Math.floor (Math.random() * floatDown ) + 1;
-console.log(floatNumber);
+// const number = prompt ('Enter another number with a decimal');
+// const floatDown = parseInt(number);
+// const floatNumber = Math.floor (Math.random() * floatDown ) + 1;
+// console.log(floatNumber);
+
+const one = prompt( "Enter any number ");
+const realone = parseInt(one);
+
+const two = prompt("Thank you, enter another number ");
+const realtwo = parseInt(two);
+
+const power = Math.pow(realone, realtwo)
+console.log(power)
